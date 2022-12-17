@@ -1,5 +1,6 @@
 package br.com.epet.Entity;
 
+import br.com.epet.Constant.Specie;
 import lombok.Data;
 
 @Data
@@ -9,10 +10,10 @@ public class PetEntity {
 
     String name;
 
-    // specie
+    private Specie specie;
 
     private double weight;
 
-    
+
 
 }
