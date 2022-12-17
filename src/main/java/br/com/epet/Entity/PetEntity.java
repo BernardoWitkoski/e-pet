@@ -10,6 +10,8 @@ public class PetEntity {
 
     String name;
 
+    int age;
+
     private Specie specie;
 
     private double weight;
