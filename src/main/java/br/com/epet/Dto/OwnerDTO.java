@@ -7,9 +7,9 @@ import java.util.List;
 @Data
 public class OwnerDTO {
 
-    long id;
+    private Long id;
 
-    String name;
+    private String name;
 
-    List<PetDTO> pets;
+    private List<PetDTO> pets;
 }
