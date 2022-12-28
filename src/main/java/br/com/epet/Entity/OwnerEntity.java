@@ -7,10 +7,10 @@ import java.util.List;
 @Data
 public class OwnerEntity {
 
-    long id;
+    private Long id;
 
-    String name;
+    private String name;
 
-    List<PetEntity> pets;
+    private List<PetEntity> pets;
 
 }
