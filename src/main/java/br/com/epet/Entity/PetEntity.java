@@ -6,11 +6,12 @@ import lombok.Data;
 @Data
 public class PetEntity {
 
-    long id;
 
-    String name;
+    private Long id;
 
-    int age;
+    private String name;
+
+    private int age;
 
     private Specie specie;
 
