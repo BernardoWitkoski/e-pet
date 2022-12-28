@@ -1,4 +1,8 @@
 package br.com.epet.Repository;
 
-public interface PetRepository {
+import br.com.epet.Entity.PetEntity;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface PetRepository extends MongoRepository<PetEntity, Long> {
+    
 }
